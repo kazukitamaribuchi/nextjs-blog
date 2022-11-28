@@ -13,7 +13,7 @@ import Link from 'next/link'
 const name = 'krystasis'
 export const siteTitle = 'Next.js Sample Website'
 
-export default function Layout({ children, home }: {children: any, home: any}) {
+export default function Layout({ children, home }: any) {
     return (
         <div className={styles.container}>
             <Head>
