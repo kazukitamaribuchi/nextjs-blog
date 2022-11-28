@@ -4,7 +4,7 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
-export default function Post({ postData }: {postData: any}) {
+export default function Post({ postData }) {
     return (
         <Layout>
             <Head>
