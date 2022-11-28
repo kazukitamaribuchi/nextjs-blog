@@ -6,7 +6,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 
 export default function Post({ postData }) {
     return (
-        <Layout home>
+        <Layout post>
             <Head>
                 <title>{postData.title}</title>
             </Head>
